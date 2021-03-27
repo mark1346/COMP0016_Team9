@@ -8,7 +8,7 @@ import theme from 'src/theme';
 import routes from 'src/routes';
 
 const App = () => {
-  const routing = useRoutes(routes, "/COMP0016_Team9");
+  const routing = useRoutes(routes);
 
   return (
     <ThemeProvider theme={theme}>
