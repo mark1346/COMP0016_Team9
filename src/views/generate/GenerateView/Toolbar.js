@@ -53,7 +53,7 @@ const FileUploader = () => {
 
     console.log(payload);
 
-    axios.post('http://127.0.0.1:8000/handle_request', payload)
+    axios.post('https://team9backend.herokuapp.com/handle_request', payload)
       .then((response) => {
         const biasJson = JSON.parse(response.data.ocr_str);
         console.log(biasJson);

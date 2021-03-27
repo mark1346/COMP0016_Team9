@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
 const handleClick = () => {
   axios({
-    url: 'http://127.0.0.1:8000/handle_request',
+    url: 'https://team9backend.herokuapp.com/handle_request',
     method: 'GET',
     responseType: 'blob', // important
   }).then((response) => {

@@ -112,7 +112,7 @@ const Preference = ({model, navigate}) => {
     //*******
     // NO TEST
     //*******
-    axios.post('http://127.0.0.1:8000/handle_request', payload)
+    axios.post('https://team9backend.herokuapp.com/handle_request', payload)
       .then((response) => {
         const biasJson = JSON.parse(response.data.bias_str);
         console.log(biasJson);
