@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 import {
   AppBar,
   Toolbar,
-  makeStyles
+  makeStyles,
+  Typography
 } from '@material-ui/core';
 import Logo from 'src/components/Logo';
 
