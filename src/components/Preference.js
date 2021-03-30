@@ -112,7 +112,7 @@ const Preference = ({model, navigate}) => {
     //*******
     // NO TEST
     //*******
-    axios.post('http://comp0016team9.azurewebsites.net/handle_request', payload)
+    axios.post('https://comp0016team9.azurewebsites.net/handle_request', payload)
       .then((response) => {
         const biasJson = JSON.parse(response.data.bias_str);
         console.log(biasJson);

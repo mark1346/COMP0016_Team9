@@ -75,7 +75,7 @@ const SelectModel = () => {
                     word2vec-google-news-300
                   </Typography>
                   <Typography gutterBottom variant="h6" component="h2" align="left">
-                    file size: 376 MB
+                    file size: 1662 MB
                   </Typography>
                   <CardActions>
                     <Button size="small" color="primary" href="https://code.google.com/archive/p/word2vec/">
@@ -94,7 +94,7 @@ const SelectModel = () => {
                     fasttext-wiki-news-subwords-300
                   </Typography>
                   <Typography gutterBottom variant="h6" component="h2" align="left">
-                    file size: 376 MB
+                    file size: 958 MB
                   </Typography>
                   <CardActions>
                     <Button size="small" color="primary" href="https://fasttext.cc/docs/en/english-vectors.html">
@@ -132,7 +132,7 @@ const SelectModel = () => {
                     glove-twitter-200
                   </Typography>
                   <Typography gutterBottom variant="h6" component="h2" align="left" color="grey">
-                    file size: 376 MB
+                    file size: 758 MB
                   </Typography>
                   <CardActions>
                     <Button size="small" color="primary" href="https://nlp.stanford.edu/projects/glove/">

@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
 const handleClick = () => {
   axios({
-    url: 'http://comp0016team9.azurewebsites.net/handle_request',
+    url: 'https://comp0016team9.azurewebsites.net/handle_request',
     method: 'GET',
     responseType: 'blob', // important
   }).then((response) => {
