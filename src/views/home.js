@@ -57,7 +57,8 @@ const Home = () => {
           What do we do?
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" component="p">
-          Project Description
+        The Resume or CV reviewing during hiring processing leads to significantly unconscious bias against gender, age, and race. 
+        The project aims to remove implicit human bias caused by semantics of words within the hiring pipelines. 
         </Typography>
       </Paper>
       <div>
@@ -65,7 +66,7 @@ const Home = () => {
           How it works?
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" component="p">
-          Project Description
+          
         </Typography>
       </div>
       <Container className={classes.cardGrid} maxWidth="md">
