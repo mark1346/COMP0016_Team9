@@ -77,7 +77,7 @@ const Preference = ({model, navigate}) => {
     const payload = {
       preference: preferenceValue,
       model: model,
-      file_obj: fileObj,
+      file_obj: fileObj
     };
 
     console.log(payload);
@@ -112,7 +112,7 @@ const Preference = ({model, navigate}) => {
     //*******
     // NO TEST
     //*******
-    axios.post('https://team9backend.herokuapp.com/handle_request', payload)
+    axios.post('http://comp0016team9.azurewebsites.net/handle_request', payload)
       .then((response) => {
         const biasJson = JSON.parse(response.data.bias_str);
         console.log(biasJson);
